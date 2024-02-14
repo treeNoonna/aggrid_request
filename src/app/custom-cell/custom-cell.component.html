@@ -1,0 +1,6 @@
+<label
+nz-checkbox
+[(ngModel)]="checked"
+(ngModelChange)="updateChecked(params?.data)">
+  {{params?.data?.widgetName}}
+</label>
